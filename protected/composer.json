@@ -1,0 +1,47 @@
+{
+    "name": "forza020/web_cron",
+    "description": "Web app to handle internal cron jobs",
+    "keywords": ["web cron", "cron jobs", "schedule", "cron task"],
+    "homepage": "http://php8developer.com",
+    "license": "Proprietary",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Roman",
+            "homepage": "http://php8developer.com",
+            "role": "developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": ">=2.0.41",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "yiisoft/yii2-imagine": ">=2.3.0",
+        "mtdowling/cron-expression": "@dev",
+        "php-curl-class/php-curl-class": ">=9.1.0",
+		"2amigos/yii2-date-picker-widget" : "~1.0",
+        "kartik-v/yii2-widget-datetimepicker": ">=1.4.9",
+        "2amigos/yii2-chartjs-widget" : ">=3.0.1",
+        "symfony/process": ">=5.2",
+        "bower-asset/components-font-awesome": ">=5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.1.0"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
